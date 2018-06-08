@@ -1,0 +1,8 @@
+POLECENIA KONSOLI ADB (ANDROID DEBUG BRIDGE)
+how to find activity
+
+adb devices
+
+adb shell 
+
+dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp'                                                
